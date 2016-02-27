@@ -1,11 +1,11 @@
 # Bazel Build Experimentation
 
-This project does some simple exploration into how Bazel works.  It includes a simple script on how to create an Intellij module and an example binaries in python/java/scala for the Fibonacci sequence.
+This project explores the Bazel build system.  It includes a simple script on how to create an Intellij module and example binaries in python/java/scala for the Fibonacci sequence.
 
 ## Running Binaries
 
-Below are examples of how to build and run the Fib function in Java, Scala, and Python.  I put the
-Function in a new folder to make the build structure a bit more interesting.
+Below are examples of how to build and run the Fib function in Java, Scala and Python.  I put the
+function in a new folder to make the build structure a bit more interesting.
 
 ### Java
 
@@ -33,7 +33,7 @@ Fib(10)=55
 
 ## Running in Intellij
 
-Currently there is not great support for running Bazel in IntelliJ.  I repurposed the Bazel development script to work with this project.  It will pull the Scala and Java code into an iml file that can be pulled in IntelliJ has a module.
+Currently there is not great support for running Bazel in IntelliJ.  I repurposed the Bazel development script to work with this project.  It will pull the Scala and Java code into an iml file that can be pulled in IntelliJ as a module.
 
 ```
 >> scripts/setup_intellij.sh
