@@ -1,6 +1,6 @@
 # Bazel Build Experimentation
 
-This project explores the Bazel build system.  It includes a simple script on how to create an Intellij module and example binaries in python/java/scala for the Fibonacci sequence.
+This project explores the Bazel build system.  It includes a simple script on how to create an Intellij module and example binaries in python/java/scala/c++ for the Fibonacci sequence.
 
 ## Running Binaries
 
@@ -28,6 +28,14 @@ Fib(10)=55
 ```
 >> bazel build //src/main/python/engine:bin
 >> bazel-bin/src/main/python/engine/bin
+Fib(10)=55
+```
+
+### C++
+
+```
+>> bazel build //src/main/cpp/engine:bin
+>> bazel-bin/src/main/cpp/engine/bin
 Fib(10)=55
 ```
 
