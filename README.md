@@ -46,3 +46,11 @@ Fib(10)=55
 >> bazel-bin/src/main/c/engine/bin
 Fib(10)=55
 ```
+
+### Rust
+
+```
+>> bazel build //src/main/rust/engine:bin
+>> bazel-bin/src/main/rust/engine/bin
+Fib(10)=55
+```
