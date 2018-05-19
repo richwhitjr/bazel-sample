@@ -42,7 +42,7 @@ Fib(10)=55
 ### Pure C
 
 ```
->> bazel build //src/main/cpp/engine:bin
->> bazel-bin/src/main/cpp/engine/bin
+>> bazel build //src/main/c/engine:bin
+>> bazel-bin/src/main/c/engine/bin
 Fib(10)=55
 ```
