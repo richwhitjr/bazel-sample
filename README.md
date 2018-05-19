@@ -39,11 +39,10 @@ Fib(10)=55
 Fib(10)=55
 ```
 
-## Running in Intellij
-
-Currently there is not great support for running Bazel in IntelliJ.  I repurposed the Bazel development script to work with this project.  It will pull the Scala and Java code into an iml file that can be pulled in IntelliJ as a module.
+### Pure C
 
 ```
->> scripts/setup_intellij.sh
-Done. Project file: bazel.iml
+>> bazel build //src/main/cpp/engine:bin
+>> bazel-bin/src/main/cpp/engine/bin
+Fib(10)=55
 ```
